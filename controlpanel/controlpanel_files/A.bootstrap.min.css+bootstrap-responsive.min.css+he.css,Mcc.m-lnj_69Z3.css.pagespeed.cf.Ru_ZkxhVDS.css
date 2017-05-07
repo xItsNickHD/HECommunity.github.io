@@ -5697,7 +5697,7 @@ a:hover {
     opacity: 1
 }
 #sidebar>ul>li.active>a {
-    background: url(http://br.hackerexperience.com/img/xmenu-active.png.pagespeed.ic.OWkkrNyQCo.png) no-repeat scroll right center transparent!important
+    background: url(/resources/xmenu.png) no-repeat scroll right center transparent!important
 }
 #sidebar>ul>li>a>.label {
     margin: 0 20px 0 0;
@@ -6864,7 +6864,7 @@ form {
     *margin-right: .3em;
     line-height: 16px;
     vertical-align: text-top;
-    background-image: url(http://br.hackerexperience.com/images/xhe16.png.pagespeed.ic.WuUDsY20JZ.png);
+    background-image: url(/resources/xhe16.png
     background-position: 16px 16px;
     background-repeat: no-repeat
 }
