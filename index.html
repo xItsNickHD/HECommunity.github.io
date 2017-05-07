@@ -17,6 +17,11 @@
 <link href="./resources/A.he_index.css+tipTip.css,Mcc.PErgXFGQko.css.pagespeed.cf.02qeiK0lrr.css" rel="stylesheet">
 </head>
 <body>
+<div class="alert">
+	<h1>Alert!</h1>
+    <h2 style="padding-top:10px;color:#000;">The legacy recode is in development. Help us in <a href=https://github.com/HECommunity">our Github</a></h2>
+    <a href="#" class="close_btn"><i class="fa fa-2x fa-times"></i></a>
+</div>
 <div id="terminal" class="typist-container" style="background-color: rgb(0, 0, 0); color: rgb(0, 204, 0); font-family: monospace; height: 825px;"><br>[ 0.005752] eth0: MACE at 00:0f:02:10:2a:6d, chip revision 9.64</br><span>[ 0.005752] eth0: MACE at 00:0f:02:10:2a:6d, chip revision 9.64</span><br class="prompt">$&gt; ssh root@nsa.gov</br><span class="prompt">$&gt; ssh root@nsa.gov</span><br>Enter password:</br><span>Enter password:</span><span class="prompt"> ********</span><br>Access denied!</br><span>Access denied!</span><br class="prompt">$&gt; ssh fbi.gov</br><span class="prompt">$&gt; ssh fbi.gov</span><br>Enter username:</br><span>Enter username:</span><span class="prompt"> root</span><br>Enter password:</br><span>Enter password:</span><span class="prompt"> ********</span><br>Access denied!</br><span>Access denied!</span><br class="prompt">$&gt; ssh fbi.gov</br><span class="prompt">$&gt; ssh fbi.gov</span><br>Enter username:</br><span>Enter username:</span><span class="prompt"> root</span><br>Enter password:</br><span>Enter password:</span><span class="prompt"> ********</span><br>Access denied!</br><span>Access denied!</span><br class="prompt">$&gt; ssh fbi.gov</br><span class="prompt">$&gt; ssh fbi.gov</span><br>Enter username:</br><span>Enter username:</span><span class="prompt"> root</span><br>Enter password:</br><span>Enter password:</span><span class="prompt"> ********</span><br>Access denied!</br><span>Access denied!</span><br class="prompt">$&gt; ssh fbi.gov</br><span class="prompt">$&gt; ssh fbi.gov</span><br>Enter username:</br><span>Enter username:</span><span class="prompt"> root</span><br>Enter password:</br><span>Enter password:</span><span class="prompt"> ********</span><br>Access denied!</br><span>Access denied!</span><br class="prompt">$&gt; ssh fbi.gov</br><span class="prompt">$&gt; ssh fbi.gov</span><br>Enter username:</br><span>Enter username:</span><span class="prompt"> root</span><br>Enter password:</br><span>Enter password:</span><span class="prompt"> ********</span><br>Access denied!</br><span>Access denied!</span><br class="prompt">$&gt; ssh fbi.gov</br><span class="prompt">$&gt; ssh fbi.gov</span><br>Enter username:</br><span>Enter username:</span><span class="prompt"> root</span><br>Enter password:</br><span>Enter password:</span><span class="prompt"> ********</span><br>Access denied!</br><span>Access denied!</span><br class="prompt">$&gt; ssh fbi.gov</br><span class="prompt">$&gt; ssh fbi.gov</span><br>Enter username:</br><span>Enter username:</span><span class="prompt"> root</span><br>Enter password:</br><span>Enter password:</span><span class="prompt"> ********</span><br>Access denied!</br><span>Access denied!</span><br class="prompt">$&gt; ssh fbi.gov</br><span class="prompt">$&gt; ssh fbi.gov</span><br>Enter username:</br><span>Enter username:</span><span class="prompt"> root</span><br>Enter password:</br><span>Enter password:</span><span class="prompt"> ********</span><br>Access denied!</br><span>Access denied!</span><br class="prompt">$&gt; ssh fbi.gov</br><span class="prompt">$&gt; ssh fbi.gov</span><br>Enter username:</br><span>Enter username:</span><span class="prompt"> root</span><br>Enter password:</br><span>Enter password:</span><span class="prompt"> ********</span><br>Access denied!</br><span>Access denied!</span></div>
 <div class="intro-header" style="min-height: 925px;">
 <div id="lang_selector">
@@ -231,10 +236,10 @@ Hacker Experience is <strong>NOT</strong> related to any real hacking activity. 
 <a href="mailto:contact@hackerexperience.xyz"><i class="fa fa-envelope-o"></i>contact@hackerexperience.xyz</a><br>
 </div>
 <div class="footer-social">
+<a href="https://github.com/HECommunity"><i class="fa fa-github"></i></a>
 <a href="https://facebook.com/HackerExperience"><i class="fa fa-facebook-square"></i></a>
 <a href="https://twitter.com/HackerExp"><i class="fa fa-twitter"></i></a>
 <a href="https://plus.google.com/105485198485447624885" rel="publisher"><i class="fa fa-google-plus"></i></a>
-<a href="https://renatomassaro.com/"><i class="fa fa-user"></i></a>
 </div>
 </div>
 </div>
@@ -257,6 +262,18 @@ Hacker Experience is <strong>NOT</strong> related to any real hacking activity. 
 <script>eval(mod_pagespeed_4eEPtWEnkf);</script>
 <script src="./resources/he_index.js.pagespeed.jm.80P2p6N_il.js.download"></script>
 
- 
+<script>
+$(document).ready(function() {
+
+  if ($(window).width() > 786) {
+    $('.alert').hide().delay(750).slideDown(400);
+  };
+  $('.close_btn').click(function() {
+    $('.close_btn').fadeOut(200);
+    $('.alert').slideUp(400);
+  });
+
+});
+</script>
 
 </body></html>
